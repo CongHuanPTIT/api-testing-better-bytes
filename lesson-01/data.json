@@ -1,0 +1,13 @@
+{
+	"student": {
+		"name": "Nguyen Van A",
+		"age": 20,
+		"major": "Computer Science",
+		"gpa": 3.7,
+		"courses": [
+			"Programming Fundamentals",
+			"Data Structures",
+			"Web Development"
+		]
+	}
+}

@@ -3,7 +3,7 @@
 import { Octokit } from 'octokit'
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: 'MY_TOKEN' // thay = token của chính mình trong máy riêng, không đăng lên 
 })
 
 await octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/comments', {
